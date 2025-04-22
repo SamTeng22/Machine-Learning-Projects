@@ -11,7 +11,7 @@ Technologies:
 
 How it works:
 1. Loads database from scikit-learn and other dependencies
-2. Splits data to traning and test sets with a ratio of 8:2
+2. Splits data to training and test sets with a ratio of 8:2
 3. Scales the features with StandardScaler
 4. Trains a neural network with MLPClassifier
 5. Tuned hyperparameters with GridSearchCV
