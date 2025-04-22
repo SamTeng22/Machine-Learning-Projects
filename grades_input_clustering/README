@@ -1,0 +1,16 @@
+Student Grade Grouping using Clustering
+
+This mini machine learning project uses [grades_km_input.csv] (https://github.com/mlnjsh/DSBDA-Btech/blob/master/grades_km_input.csv) from the DSBDA-Btech repository to group student grades using clustering techniques.
+
+Technologies:
+Python
+Jupyter Notebook
+matplotlib
+scikit-learn
+
+How it works:
+Loads the dataset from the provided CSV link and imports relevant libraries
+Computes average silhouette scores for cluster counts ranging from 2 to 15
+Selects the optimal number of clusters based on the highest silhouette score
+Applies K-Means clustering to group the dataset
+Interprets cluster groupings
